@@ -1,0 +1,23 @@
+<div>
+    <h2>
+        Welcome to expermienting Angular 9.0
+    </h2>
+    <h3>Here are concepts we covered </h3>
+    <ul>
+        <li>
+            <h2><a>Lazy Loading</a></h2>
+        </li>
+        <li>
+            <h2><a>Service ProvidedIn ('root', 'any', Some Module)</a></h2>
+        </li>
+    </ul>
+    <div style="display: flex;gap:40px">
+        <button (click)="increment()">+</button>
+        <h4>{{counter}}</h4>
+    </div>
+    
+
+    <a routerLink="lazy/module1"> Lazy Load Module 1</a>
+    <br>
+    <a routerLink="lazy/module2"> Eagerly Load Module 2</a>
+    </div>
